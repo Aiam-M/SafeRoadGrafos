@@ -43,14 +43,3 @@ public class Node {
 
 
 }
-
-
-
-
-/*
-Tu precisa construir esses métodos nos No/Vertice/Esquina (não sei como você colocou):
-Constructor (obviamente)
-Getters: o Dijkstra precisa de getId() e getNome()
-equals() e hashCode(): No vai ser chave em um Map (na lista de adjacência). Sem esses métodos, o Map não funciona direito. Base em id
-toString(): debugar, imprimir resultados
- */

@@ -23,4 +23,8 @@ public class Grafo {
     public List<Edge> getVizinhos(Node node) {
         return adjacencia.getOrDefault(node, Collections.emptyList());
     }
+
+    public Set<Node> getTodosNodes() {
+        return adjacencia.keySet();
+    }
 }
